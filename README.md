@@ -1,8 +1,8 @@
 # Demo
 Master|Develop|
 ---|---
-|[![Build Status](https://travis-ci.org/Crevil/itm-ng-cd-demo.svg?branch=master)](https://travis-ci.org/Crevil/itm-ng-cd-demo)|[![Build Status](https://travis-ci.org/Crevil/itm-ng-cd-demo.svg?branch=develop)](https://travis-ci.org/Crevil/itm-ng-cd-demo)
-[Heroku App Master](https://itm-demo-1.herokuapp.com/)|[Heroku App Dev](https://itm-demo-2.herokuapp.com/)
+|[![Build Status](https://travis-ci.org/jhalborg/tk2017-cd-ng.svg?branch=production)](https://tk2017-cd-prod.herokuapp.com/)|[![Build Status](https://travis-ci.org/jhalborg/tk2017-cd-ng.svg?branch=master)](https://tk2017-cd-stage.herokuapp.com/)
+[Heroku App Master](https://tk2017-cd-prod.herokuapp.com/)|[Heroku App Dev](https://tk2017-cd-stage.herokuapp.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
 
