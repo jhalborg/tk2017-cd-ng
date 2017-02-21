@@ -5,6 +5,9 @@ deploy:
   provider: heroku
   api_key:
     secure: "a1def85e-9797-4384-b554-b7340df5913c"
+    app:
+      master: tk2017-cd-stage
+      production: tk2017-cd-prod
 sudo: false
 dist: trusty
 addons:
@@ -17,3 +20,6 @@ before_script:
   - sleep 3
 script:
     - npm run test.prod
+cache:
+  directories:
+  - node_modules
