@@ -4,10 +4,10 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    app:
-      master: tk2017-cd-stage
-      production: tk2017-cd-prod
     secure: Z4eFAVGmthkMhk4PzBGZJukB9pOP1c18P4Z5dzdo1EsvoYAy2N5BnhUBDLc/k9JS6OpkOCtHsj/qh2MplyWv1Clyca8eP5AiXAc23tRxBUw2dr+aiDQbFD2rebVM1LGNLVpaqJrmcZZp01OV4LQm10EDRVVKkDRMcFMHpJMwUBIGqwkzypdLSQDYmx3PD+rsDZyqikKPv4SoIKB2fAeyWGIYLhsda9OJjep9zTQDrKkQR9J857o7My6gi6OLtNZzKRK38GQT2KJV8WNg/xcoUEvKQRgcYokbF/72hFJ32tdYnkQ9mWpB6knjKNVSAt2vLA7CQulpQws6ttULm3K1ugQJ4b7txStHBrc7ubzG2Qkp6j1R+vkOlx0h+71uRz+XxQTqLrVkc4QbaAMMxIH83bqYtblCFGPa6kEDo9sTMNH74M+25XRlkYN/mck70Cl2cT4wl8u9Gf7RBuBUDS9vp1fzVUWir0uKhRf7eYWEEgaUqnW7tjFQs0bnq5xboHoEOpSv5On4gGd0Vna7aRDp5P71P0jD6kC+HC0A+NzMCPM0fG0Psk/rvPFQCuxN0EeqMKLYN8rJg88a5dIdHmVUUuD/goypPC9hsomXpc3k/qSLzejc0OoW/uABYk/PHRHOpiyCqSo1IP/Dch3O343Fubxxo+Hk5yw95wrviYFpIe0=
+  app:
+    master: tk2017-cd-stage
+    production: tk2017-cd-prod
 sudo: false
 dist: trusty
 addons:
